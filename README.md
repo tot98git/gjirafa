@@ -5,7 +5,6 @@
 <br/>
 ## Installation
 
-``npm install gjirafaapi``
 
 ## Usage
 
