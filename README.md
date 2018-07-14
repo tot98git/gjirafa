@@ -5,6 +5,7 @@
 <br/>
 
 ## Installation
+The module can be installed ``npm install gjirafaapi``
 
 
 
