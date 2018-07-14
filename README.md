@@ -7,6 +7,7 @@
 ## Installation
 The module can be installed using ``npm install gjirafaapi``. The module is dependent on <strong><a href="https://github.com/cheeriojs/cheerio">Cheerio</a></strong> and <strong><a href="https://www.npmjs.com/package/request">Request native</a></strong> 
 
+## Usage
 
 
 
