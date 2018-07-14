@@ -5,7 +5,7 @@
 <br/>
 
 ## Installation
-The module can be installed ``npm install gjirafaapi``
+The module can be installed using ``npm install gjirafaapi``. The module is dependent on <strong>Cheerio</strong> <strong>Request native</strong> 
 
 
 
