@@ -27,7 +27,8 @@ The method receives three parameters:
 | ------------- | ------------- | -----------|--------|
 | from  | Departure place  | String | Conversion to a strict format is not needed. The webpage will return valid results even if we write City, cit or ci as long as there are no other objects with the respective names.
 | to  | Destination place  | String | Conversion to a strict format is not needed. The webpage will return valid results if we write City, cit or ci as long as there are no other objects with the respective names.
-| date | Date of travel |  String   | DD-MM
+| date | Date of travel |  String   | DD-MM 
+
 The function always returns a promise and as such it should be caught with ``then``.
 
 ## License 
@@ -36,6 +37,6 @@ All the rights belong to the owners of the page of our interest. This module is 
  
  
  ## Info 
- Author: Toti Kadriu
- www.totiworks.com
+ Author: Toti Kadriu <br/>
+ www.totiworks.com <br/>
  https://www.linkedin.com/in/toti-kadriu/
