@@ -29,7 +29,7 @@ The method receives three parameters:
 | to  | Destination place  | String | Conversion to a strict format is not needed. The webpage will return valid results if we write City, cit or ci as long as there are no other objects with the respective names.
 | date | Date of travel |  String   | DD-MM 
 
-The function always returns a promise and as such it should be caught with ``then``.
+The function always returns a promise and as such it should be caught with ``then``.<br/>
 The result is an array of JSON objects. Those objects contain three properties: from and date - which consist of time information and operator with the operating company's name.
 
 ## License 
