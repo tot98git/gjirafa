@@ -3,6 +3,7 @@
 
 <h5 align="center"><a href="gjirafa.com">Gjirafa.com</a> offers a very useful service to check the bus schedule in Kosovo. They do not, however, offer an API or module which developers can use and present the information in services that assist people's needs such as a more compact website or mobile application. As such I have created this module that scraps the provider's website and returns the info in JSON format.</h5>
 <br/>
+
 ## Description
 This tool parses the page of interest, <a href="https://gjirafa.com/Autobus">Gjirafa Linja te autobuseve</a> (eng. Gjirafa bus lines) using the ``request`` module. Then, the parsed web page is scrapped using the ``cheerio`` module. ``Cheerio`` uses JQuery traversing method to go through DOM elements.
 
