@@ -18,6 +18,7 @@ After the installation, the module could be used in the following way:
    gjirafa("ferizaj","prishtine","14-7").then((result)=>console.log(result));
 ```
 The method receives three parameters:
+
 | Parameter | Context to be used in | Type | Format|
 | ------------- | ------------- | -----------|--------|
 | from  | Departure place  | String | Conversion to a strict format is not needed. The webpage will return valid results if we write City, cit or ci as long as there are no other objects with the respective names.
