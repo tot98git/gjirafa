@@ -37,6 +37,5 @@ All the rights belong to the owners of the page of our interest. This module is 
  
  
  ## Info 
- Author: Toti Kadriu <br/>
+ Author: <b>Toti Kadriu</b> <br/>
  www.totiworks.com <br/>
- https://www.linkedin.com/in/toti-kadriu/
