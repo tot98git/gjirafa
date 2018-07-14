@@ -9,7 +9,7 @@ The Republic Of Kosovo doesn't have much on-line presence of platforms that give
 
 
 ## Description
-This tool parses the page of interest, <a href="https://gjirafa.com/Autobus">Gjirafa Linja te autobuseve</a> (eng. Gjirafa bus lines) using the ``request`` module. Then, the parsed web page is scrapped using the ``cheerio`` module. ``Cheerio`` uses JQuery traversing methods to go through DOM elements.
+This tool parses the page of interest, <a href="https://gjirafa.com/Autobus">Gjirafa Linja te autobuseve</a> (eng. Gjirafa bus lines) using the ``request`` module. Then, the parsed web page is scrapped using the ``cheerio`` module. ``Cheerio`` uses JQuery traversing methods to go through DOM elements. 
 
 ## Installation
 The module can be installed using ``npm install gjirafaapi``. The module is dependent on <strong><a href="https://github.com/cheeriojs/cheerio">Cheerio</a></strong> and <strong><a href="https://www.npmjs.com/package/request">Request native</a></strong>.
@@ -30,6 +30,7 @@ The method receives three parameters:
 | date | Date of travel |  String   | DD-MM 
 
 The function always returns a promise and as such it should be caught with ``then``.
+The result is an array of JSON objects. Those objects contain three properties: from and date - which consist of time information and operator with the operating company's name.
 
 ## License 
 
