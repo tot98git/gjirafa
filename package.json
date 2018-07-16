@@ -1,6 +1,6 @@
 {
   "name": "gjirafaapi",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "gjirafa.com offers a very useful service to check bus schedule in Kosovo. They do not, however, offer an API or module which developers can use and present the information in their applications. As such, I have created this node module to help developers create new services that are in the interest of people. ",
   "main": "app.js",
   "scripts": {
